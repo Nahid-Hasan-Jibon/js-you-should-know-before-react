@@ -24,25 +24,24 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 //5.Function
-function mult(a,b){
-    const result =a*b
-    return result
+function mult(a, b) {
+  const result = a * b;
+  return result;
 }
-const r =mult(2,4)
-console.log(r)
-
+const r = mult(2, 4);
+console.log(r);
 
 // object
 // 3 ways to access property from an object by name
 
-const student ={
-  name:'sakib khan',
-  age:43,
-  movies: ['king khan', 'Dhakar Mastan']
-}
+const student = {
+  name: "sakib khan",
+  age: 43,
+  movies: ["king khan", "Dhakar Mastan"],
+};
 
-console.log(student.age) //direct by property
-console.log(student['age']) //access via property name string
+console.log(student.age); //direct by property
+console.log(student["age"]); //access via property name string
 
-const myVar = 'age'
-console.log(student[myVar]) //access via property name in a variable .
+const myVar = "age";
+console.log(student[myVar]); //access via property name in a variable .
