@@ -69,5 +69,5 @@ console.log(newProducts);
 // remove phone means create a new array with out the phone
 
 const remaining = products.filter((product) => product.name !== "phone");
- console.log('Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem mollitia deserunt debitis maxime ea dolor vero, eaque repudiandae delectus atque eius beatae perspiciatis quo itaque totam nisi nam laborum quasi')
+ 
  console.log(remaining)
